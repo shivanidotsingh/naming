@@ -1,0 +1,84 @@
+body {
+    font-family: sans-serif; /* Simple font */
+    margin: 40px; /* Some basic spacing from edges */
+    line-height: 1.6;
+    color: #000; /* Black text */
+    background-color: #fff; /* White background */
+    text-align: left; /* Ensure left alignment */
+}
+
+h1, h2 {
+    font-weight: bold; /* Bold headings */
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 1.8em; /* Large headings */
+}
+
+h1 {
+    font-size: 2.5em; /* Even larger main title */
+    margin-bottom: 30px;
+}
+
+.input-section {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block; /* Put label on its own line */
+    font-weight: bold; /* Bold labels */
+    margin-bottom: 5px;
+    font-size: 1.2em; /* Large label text */
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #000; /* Black border */
+    font-size: 1em;
+    width: calc(100% - 22px); /* Take up most of the width, accounting for padding/border */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+button {
+    display: inline-block; /* Standard button display */
+    padding: 15px 25px;
+    font-size: 1.2em; /* Large button text */
+    font-weight: bold; /* Bold button text */
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000; /* Bold black border */
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+button:hover {
+    background-color: #f0f0f0; /* Slight hover effect */
+}
+
+.results-section {
+    margin-top: 30px;
+    border-top: 1px solid #eee; /* Subtle separator line */
+    padding-top: 20px;
+}
+
+/* Style for the results themselves (will be added by JS) */
+#wordsmith-results div,
+#metaphor-results div {
+     margin-bottom: 8px; /* Space out individual names */
+     font-size: 1.1em; /* Slightly larger result text */
+}
+
+/* You can add more specific styling if you decide to list names in a ul/li later */
+/*
+#wordsmith-results ul,
+#metaphor-results ul {
+    list-style: none;
+    padding: 0;
+}
+
+#wordsmith-results li,
+#metaphor-results li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+}
+*/
